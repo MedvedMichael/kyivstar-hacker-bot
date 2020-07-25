@@ -1,0 +1,16 @@
+{
+  "name": "kyivstar-hacker-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "env-cmd": "8.0.2",
+    "fs": "^0.0.1-security",
+    "node-telegram-bot-api": "^0.50.0",
+    "validator": "^13.1.1",
+    "ytdl-core": "^3.1.2"
+  },
+  "scripts": {
+    "dev": "env-cmd ./.env node src/bot.js"
+  }
+}
